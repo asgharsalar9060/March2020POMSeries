@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="CRMPRO Test Automation Regression Suite" thread-count="2" parallel="tests" verbose="3">
+
+	<!-- <listeners> <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" 
+		/> <listener class-name="com.crm.qa.pages.MyTransformer" /> </listeners> -->
+
+
+	<test name="Login Page Test">
+		<classes>
+			<class name="com.qa.crmpro.tests.LoginPageTest" />
+		</classes>
+	</test>
+
+	<test name="Home Page Test">
+		<classes>
+			<class name="com.qa.crmpro.tests.HomePageTest" />
+		</classes>
+	</test>
+
+</suite>
+	
