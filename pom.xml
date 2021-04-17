@@ -8,11 +8,12 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		
-		<!-- this property is added for Allure report - we can change its version in case of error -->
+
+		<!-- this property is added for Allure report - we can change its version 
+			in case of error -->
 		<aspectj.version>1.9.6</aspectj.version>
 	</properties>
-	
+
 	<!-- this build section is added for Allure report -->
 	<build>
 		<plugins>
@@ -122,26 +123,33 @@
 			<artifactId>openxml4j</artifactId>
 			<version>1.0-beta</version>
 		</dependency>
-		
+
 		<!-- this dependency is for Extent report -->
 		<dependency>
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
 			<version>3.1.5</version>
 		</dependency>
-		
+
 		<!-- this dependency is for PDF report -->
 		<dependency>
 			<groupId>com.lowagie</groupId>
 			<artifactId>itext</artifactId>
 			<version>2.1.7</version>
 		</dependency>
-		
+
 		<!-- this dependency is for Allure report -->
 		<dependency>
 			<groupId>io.qameta.allure</groupId>
 			<artifactId>allure-testng</artifactId>
 			<version>2.12.0</version>
+		</dependency>
+
+		<!-- this dependency is for Tesults report -->
+		<dependency>
+			<groupId>com.tesults.testng</groupId>
+			<artifactId>tesults-testng</artifactId>
+			<version>1.0.2</version>
 		</dependency>
 
 	</dependencies>
