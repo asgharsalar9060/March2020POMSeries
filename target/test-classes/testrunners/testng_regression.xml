@@ -3,11 +3,11 @@
 <suite name="CRMPRO Test Automation Regression Suite" verbose="3">
 
 	<listeners>
-		<listener class-name="com.qa.crmpro.listeners.ExtentReportListener" />
+		<!-- <listener class-name="com.qa.crmpro.listeners.ExtentReportListener" /> -->
 		<!-- <listener class-name="com.qa.crmpro.listeners.pdfListener" /> -->
-		<!-- <listener class-name="com.qa.crmpro.listeners.TestAllureListener" /> -->
+		<listener class-name="com.qa.crmpro.listeners.TestAllureListener" />
 		<!-- <listener class-name="com.qa.crmpro.listeners.TesultsListener" /> -->
-		<listener class-name="com.qa.crmpro.listeners.ScreenshotListener" />
+		<!-- <listener class-name="com.qa.crmpro.listeners.ScreenshotListener" /> -->
 	</listeners>
 
 
