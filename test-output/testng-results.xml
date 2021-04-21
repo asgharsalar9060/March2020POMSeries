@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-21T16:08:17 ULAT" name="CRMPRO Test Automation Regression Suite" finished-at="2021-04-21T16:08:35 ULAT" duration-ms="17332">
+  <suite started-at="2021-04-21T22:56:02 ULAT" name="CRMPRO Test Automation Regression Suite" finished-at="2021-04-21T22:56:24 ULAT" duration-ms="21991">
     <groups>
     </groups>
-    <test started-at="2021-04-21T16:08:17 ULAT" name="Login Page Test" finished-at="2021-04-21T16:08:35 ULAT" duration-ms="17332">
+    <test started-at="2021-04-21T22:56:02 ULAT" name="Login Page Test" finished-at="2021-04-21T22:56:24 ULAT" duration-ms="21991">
       <class name="com.qa.crmpro.tests.LoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.crmpro.tests.LoginPageTest@1da4b6b3]" started-at="2021-04-21T16:08:17 ULAT" name="setUp" finished-at="2021-04-21T16:08:27 ULAT" duration-ms="9707" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.crmpro.tests.LoginPageTest@3968bc60]" started-at="2021-04-21T22:56:02 ULAT" name="setUp" finished-at="2021-04-21T22:56:14 ULAT" duration-ms="12629" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.crmpro.tests.LoginPageTest@1da4b6b3]" started-at="2021-04-21T16:08:27 ULAT" name="verifyLoginPageTitleTest" finished-at="2021-04-21T16:08:28 ULAT" duration-ms="370" status="PASS">
+        <test-method signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.crmpro.tests.LoginPageTest@3968bc60]" started-at="2021-04-21T22:56:14 ULAT" name="verifyLoginPageTitleTest" finished-at="2021-04-21T22:56:15 ULAT" duration-ms="437" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method signature="verifySignUpLinkTest()[pri:2, instance:com.qa.crmpro.tests.LoginPageTest@1da4b6b3]" started-at="2021-04-21T16:08:28 ULAT" name="verifySignUpLinkTest" finished-at="2021-04-21T16:08:28 ULAT" duration-ms="179" status="PASS">
+        <test-method signature="verifySignUpLinkTest()[pri:2, instance:com.qa.crmpro.tests.LoginPageTest@3968bc60]" started-at="2021-04-21T22:56:15 ULAT" name="verifySignUpLinkTest" finished-at="2021-04-21T22:56:16 ULAT" duration-ms="335" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignUpLinkTest -->
-        <test-method signature="loginTest()[pri:3, instance:com.qa.crmpro.tests.LoginPageTest@1da4b6b3]" started-at="2021-04-21T16:08:28 ULAT" name="loginTest" finished-at="2021-04-21T16:08:34 ULAT" duration-ms="5882" status="PASS">
+        <test-method signature="loginTest()[pri:3, instance:com.qa.crmpro.tests.LoginPageTest@3968bc60]" started-at="2021-04-21T22:56:16 ULAT" name="loginTest" finished-at="2021-04-21T22:56:22 ULAT" duration-ms="6387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.crmpro.tests.LoginPageTest@1da4b6b3]" started-at="2021-04-21T16:08:34 ULAT" name="tearDown" finished-at="2021-04-21T16:08:35 ULAT" duration-ms="736" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.crmpro.tests.LoginPageTest@3968bc60]" started-at="2021-04-21T22:56:22 ULAT" name="tearDown" finished-at="2021-04-21T22:56:24 ULAT" duration-ms="1277" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
