@@ -19,10 +19,4 @@ public class Constants extends BasePage {
 	//*******************************SHEET NAME**********************************
 	
 	public static final String CONTACT_SHEET_NAME = "contacts";
-	
-	
-
-	public static void switchToFrame() {
-		driver.switchTo().frame("mainpanel");
-	}
 }

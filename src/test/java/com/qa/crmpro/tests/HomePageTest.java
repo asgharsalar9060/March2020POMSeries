@@ -7,10 +7,12 @@ import org.testng.annotations.Test;
 import com.qa.crmpro.base.BaseTest;
 import com.qa.crmpro.pages.HomePage;
 import com.qa.crmpro.utils.Constants;
+import com.qa.crmpro.utils.ElementUtil;
 
 public class HomePageTest extends BaseTest{
 	
 	HomePage homePage;
+	ElementUtil elementUtil;
 	
 	@BeforeClass
 	public void homeSetUp() {
@@ -26,7 +28,6 @@ public class HomePageTest extends BaseTest{
 
 	@Test(priority = 2)
 	public void verifyHomePageHeaderTest() {
-		Constants.switchToFrame();
 		String header = homePage.getHomePageHeader();
 		System.out.println("home page header is: " + header);
 		Assert.assertEquals(header, Constants.Home_PAGE_HEADER, "home page header is not present...");

@@ -1,41 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[<a href='C:\Users\User\OneDrive\Documents\JavaTraining\March2020POMSeries\target\surefire-reports\failure_screenshots\verifyLoginPageTitleTest_17_04_2021_09_10_45.png'> <img src='C:\Users\User\OneDrive\Documents\JavaTraining\March2020POMSeries\target\surefire-reports\failure_screenshots\verifyLoginPageTitleTest_17_04_2021_09_10_45.png' height='100' width='100'/> </a>]]>
+      <![CDATA[<a href='C:\Users\User\OneDrive\Documents\JavaTraining\March2020POMSeries\target\surefire-reports\failure_screenshots\verifyHomePageHeaderTest_18_04_2021_04_08_27.png'> <img src='C:\Users\User\OneDrive\Documents\JavaTraining\March2020POMSeries\target\surefire-reports\failure_screenshots\verifyHomePageHeaderTest_18_04_2021_04_08_27.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\User\OneDrive\Documents\JavaTraining\March2020POMSeries\target\surefire-reports\failure_screenshots\verifyHomePageLoggedInUser_18_04_2021_04_08_28.png'> <img src='C:\Users\User\OneDrive\Documents\JavaTraining\March2020POMSeries\target\surefire-reports\failure_screenshots\verifyHomePageLoggedInUser_18_04_2021_04_08_28.png' height='100' width='100'/> </a>]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-04-17T21:10:23 ULAT" name="CRMPRO Test Automation Regression Suite" finished-at="2021-04-17T21:10:55 ULAT" duration-ms="31927">
+  <suite started-at="2021-04-18T16:07:00 ULAT" name="CRMPRO Test Automation Regression Suite" finished-at="2021-04-18T16:08:29 ULAT" duration-ms="88655">
     <groups>
     </groups>
-    <test started-at="2021-04-17T21:10:23 ULAT" name="Login Page Test" finished-at="2021-04-17T21:10:55 ULAT" duration-ms="31927">
+    <test started-at="2021-04-18T16:07:00 ULAT" name="Login Page Test" finished-at="2021-04-18T16:07:39 ULAT" duration-ms="39192">
       <class name="com.qa.crmpro.tests.LoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.crmpro.tests.LoginPageTest@7c853486]" started-at="2021-04-17T21:10:23 ULAT" name="setUp" finished-at="2021-04-17T21:10:33 ULAT" duration-ms="10239" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.crmpro.tests.LoginPageTest@b2f4ece]" started-at="2021-04-18T16:07:00 ULAT" name="setUp" finished-at="2021-04-18T16:07:14 ULAT" duration-ms="13956" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.crmpro.tests.LoginPageTest@7c853486]" started-at="2021-04-17T21:10:33 ULAT" name="verifyLoginPageTitleTest" finished-at="2021-04-17T21:10:44 ULAT" duration-ms="10914" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for title to contain "Free CRM - CRM software for customer relationship management, sales, and support..". Current title: "Free CRM - CRM software for customer relationship management, sales, and support." (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-I3PT2JI', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62393}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1904c54788fa4e7b39df65884ce6fe35]]>
-            </message>
+        <test-method signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.crmpro.tests.LoginPageTest@b2f4ece]" started-at="2021-04-18T16:07:14 ULAT" name="verifyLoginPageTitleTest" finished-at="2021-04-18T16:07:15 ULAT" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method signature="verifySignUpLinkTest()[pri:2, instance:com.qa.crmpro.tests.LoginPageTest@b2f4ece]" started-at="2021-04-18T16:07:15 ULAT" name="verifySignUpLinkTest" finished-at="2021-04-18T16:07:15 ULAT" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpLinkTest -->
+        <test-method signature="loginTest()[pri:3, instance:com.qa.crmpro.tests.LoginPageTest@b2f4ece]" started-at="2021-04-18T16:07:15 ULAT" name="loginTest" finished-at="2021-04-18T16:07:39 ULAT" duration-ms="23644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.crmpro.tests.LoginPageTest@b2f4ece]" started-at="2021-04-18T16:07:39 ULAT" name="tearDown" finished-at="2021-04-18T16:07:39 ULAT" duration-ms="648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.crmpro.tests.LoginPageTest -->
+    </test> <!-- Login Page Test -->
+    <test started-at="2021-04-18T16:07:39 ULAT" name="Home Page Test" finished-at="2021-04-18T16:08:29 ULAT" duration-ms="49392">
+      <class name="com.qa.crmpro.tests.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.crmpro.tests.HomePageTest@1460c81d]" started-at="2021-04-18T16:07:39 ULAT" name="setUp" finished-at="2021-04-18T16:07:50 ULAT" duration-ms="10223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="homeSetUp()[pri:0, instance:com.qa.crmpro.tests.HomePageTest@1460c81d]" started-at="2021-04-18T16:07:50 ULAT" name="homeSetUp" finished-at="2021-04-18T16:08:27 ULAT" duration-ms="37809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeSetUp -->
+        <test-method signature="verifyHomePageTitleTest()[pri:1, instance:com.qa.crmpro.tests.HomePageTest@1460c81d]" started-at="2021-04-18T16:08:27 ULAT" name="verifyHomePageTitleTest" finished-at="2021-04-18T16:08:27 ULAT" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method signature="verifyHomePageHeaderTest()[pri:2, instance:com.qa.crmpro.tests.HomePageTest@1460c81d]" started-at="2021-04-18T16:08:27 ULAT" name="verifyHomePageHeaderTest" finished-at="2021-04-18T16:08:27 ULAT" duration-ms="37" status="FAIL">
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "Free CRM - CRM software for customer relationship management, sales, and support..". Current title: "Free CRM - CRM software for customer relationship management, sales, and support." (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-I3PT2JI', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62393}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1904c54788fa4e7b39df65884ce6fe35
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at com.qa.crmpro.utils.ElementUtil.waitForTitleToBePresent(ElementUtil.java:223)
-at com.qa.crmpro.pages.LoginPage.getLoginPageTitle(LoginPage.java:31)
-at com.qa.crmpro.tests.LoginPageTest.verifyLoginPageTitleTest(LoginPageTest.java:27)
+              <![CDATA[java.lang.NullPointerException
+at com.qa.crmpro.utils.ElementUtil.doIsDisplayed(ElementUtil.java:61)
+at com.qa.crmpro.pages.HomePage.getHomePageHeader(HomePage.java:37)
+at com.qa.crmpro.tests.HomePageTest.verifyHomePageHeaderTest(HomePageTest.java:31)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -66,26 +86,62 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
             <line>
-              <![CDATA[<a href='C:\Users\User\OneDrive\Documents\JavaTraining\March2020POMSeries\target\surefire-reports\failure_screenshots\verifyLoginPageTitleTest_17_04_2021_09_10_45.png'> <img src='C:\Users\User\OneDrive\Documents\JavaTraining\March2020POMSeries\target\surefire-reports\failure_screenshots\verifyLoginPageTitleTest_17_04_2021_09_10_45.png' height='100' width='100'/> </a>]]>
+              <![CDATA[<a href='C:\Users\User\OneDrive\Documents\JavaTraining\March2020POMSeries\target\surefire-reports\failure_screenshots\verifyHomePageHeaderTest_18_04_2021_04_08_27.png'> <img src='C:\Users\User\OneDrive\Documents\JavaTraining\March2020POMSeries\target\surefire-reports\failure_screenshots\verifyHomePageHeaderTest_18_04_2021_04_08_27.png' height='100' width='100'/> </a>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method signature="verifySignUpLinkTest()[pri:2, instance:com.qa.crmpro.tests.LoginPageTest@7c853486]" started-at="2021-04-17T21:10:46 ULAT" name="verifySignUpLinkTest" finished-at="2021-04-17T21:10:46 ULAT" duration-ms="129" status="PASS">
+        </test-method> <!-- verifyHomePageHeaderTest -->
+        <test-method signature="verifyHomePageLoggedInUser()[pri:3, instance:com.qa.crmpro.tests.HomePageTest@1460c81d]" started-at="2021-04-18T16:08:28 ULAT" name="verifyHomePageLoggedInUser" finished-at="2021-04-18T16:08:28 ULAT" duration-ms="24" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.qa.crmpro.utils.ElementUtil.doIsDisplayed(ElementUtil.java:61)
+at com.qa.crmpro.pages.HomePage.getHomePageLoggedInUser(HomePage.java:44)
+at com.qa.crmpro.tests.HomePageTest.verifyHomePageLoggedInUser(HomePageTest.java:38)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\User\OneDrive\Documents\JavaTraining\March2020POMSeries\target\surefire-reports\failure_screenshots\verifyHomePageLoggedInUser_18_04_2021_04_08_28.png'> <img src='C:\Users\User\OneDrive\Documents\JavaTraining\March2020POMSeries\target\surefire-reports\failure_screenshots\verifyHomePageLoggedInUser_18_04_2021_04_08_28.png' height='100' width='100'/> </a>]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- verifySignUpLinkTest -->
-        <test-method signature="loginTest()[pri:3, instance:com.qa.crmpro.tests.LoginPageTest@7c853486]" started-at="2021-04-17T21:10:46 ULAT" name="loginTest" finished-at="2021-04-17T21:10:54 ULAT" duration-ms="7559" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.crmpro.tests.LoginPageTest@7c853486]" started-at="2021-04-17T21:10:54 ULAT" name="tearDown" finished-at="2021-04-17T21:10:55 ULAT" duration-ms="817" status="PASS">
+        </test-method> <!-- verifyHomePageLoggedInUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.crmpro.tests.HomePageTest@1460c81d]" started-at="2021-04-18T16:08:28 ULAT" name="tearDown" finished-at="2021-04-18T16:08:29 ULAT" duration-ms="651" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.crmpro.tests.LoginPageTest -->
-    </test> <!-- Login Page Test -->
+      </class> <!-- com.qa.crmpro.tests.HomePageTest -->
+    </test> <!-- Home Page Test -->
   </suite> <!-- CRMPRO Test Automation Regression Suite -->
 </testng-results>

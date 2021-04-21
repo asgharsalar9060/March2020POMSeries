@@ -16,6 +16,7 @@ public class HomePage extends BasePage {
 	By header = By.xpath("//td[contains(text(),'CRMPRO')]");
 	By user = By.xpath("//td[contains(text(),'User: Asghar Salar')]");
 	
+	By frame = By.name("mainpanel");
 	By contactsLink = By.xpath("//a[contains(text(),'Contacts')]");
 	By newContactsLink = By.xpath("//a[contains(text(),'New Contact')]");
 
@@ -47,7 +48,7 @@ public class HomePage extends BasePage {
 	}
 	
 	public ContactsPage goToContactsPage() {
-		Constants.switchToFrame();
+		elementUtil.doGetDropDownOptions(frame);
 		clickOnNewContacts();
 		return new ContactsPage(driver);
 	}

@@ -4,15 +4,18 @@
   <listeners>
     <listener class-name="com.qa.crmpro.listeners.ScreenshotListener"/>
   </listeners>
-  <test thread-count="5" name="Login Page Test(failed)" verbose="3">
+  <test thread-count="5" name="Home Page Test(failed)" verbose="3">
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="com.qa.crmpro.tests.LoginPageTest">
+      <class name="com.qa.crmpro.tests.HomePageTest">
         <methods>
+          <include name="verifyHomePageLoggedInUser"/>
           <include name="setUp"/>
+          <include name="homeSetUp"/>
+          <include name="verifyHomePageHeaderTest"/>
           <include name="tearDown"/>
-          <include name="verifyLoginPageTitleTest"/>
         </methods>
-      </class> <!-- com.qa.crmpro.tests.LoginPageTest -->
+      </class> <!-- com.qa.crmpro.tests.HomePageTest -->
     </classes>
-  </test> <!-- Login Page Test(failed) -->
+  </test> <!-- Home Page Test(failed) -->
 </suite> <!-- Failed suite [CRMPRO Test Automation Regression Suite] -->

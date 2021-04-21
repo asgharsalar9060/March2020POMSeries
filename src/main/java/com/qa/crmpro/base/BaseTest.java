@@ -19,7 +19,7 @@ public class BaseTest {
 	@BeforeTest
 	public void setUp() {
 		basePage = new BasePage();
-		prop = basePage.inti_prop();
+		prop = basePage.init_prop();
 		driver = basePage.init_driver(prop);
 		loginPage = new LoginPage(driver);
 	}

@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>1/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Apr 17 17:22:22 ULAT 2021</td>
+<td>Started on:</td><td>Sun Apr 18 16:07:39 ULAT 2021</td>
 </tr>
-<tr><td>Total time:</td><td>49 seconds (49637 ms)</td>
+<tr><td>Total time:</td><td>49 seconds (49392 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,10 +75,18 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.qa.crmpro.tests.HomePageTest.verifyHomePageHeaderTest()'><b>verifyHomePageHeaderTest</b><br>Test class: com.qa.crmpro.tests.HomePageTest</td>
+<td title='com.qa.crmpro.tests.HomePageTest.verifyHomePageHeaderTest()'><b>verifyHomePageHeaderTest</b><br>Test class: com.qa.crmpro.tests.HomePageTest<br/>
+<a href="#Output-124017533" onClick='toggleBox("Output-124017533", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-124017533" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-124017533">
+<a href='C:\Users\User\OneDrive\Documents\JavaTraining\March2020POMSeries\target\surefire-reports\failure_screenshots\verifyHomePageHeaderTest_18_04_2021_04_08_27.png'> <img src='C:\Users\User\OneDrive\Documents\JavaTraining\March2020POMSeries\target\surefire-reports\failure_screenshots\verifyHomePageHeaderTest_18_04_2021_04_08_27.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
 <td><div><pre>java.lang.NullPointerException
-	at com.qa.crmpro.utils.Constants.switchToFrame(Constants.java:26)
-	at com.qa.crmpro.tests.HomePageTest.verifyHomePageHeaderTest(HomePageTest.java:29)
+	at com.qa.crmpro.utils.ElementUtil.doIsDisplayed(ElementUtil.java:61)
+	at com.qa.crmpro.pages.HomePage.getHomePageHeader(HomePage.java:37)
+	at com.qa.crmpro.tests.HomePageTest.verifyHomePageHeaderTest(HomePageTest.java:31)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -107,10 +115,11 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1662600404", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1662600404'><pre>java.lang.NullPointerException
-	at com.qa.crmpro.utils.Constants.switchToFrame(Constants.java:26)
-	at com.qa.crmpro.tests.HomePageTest.verifyHomePageHeaderTest(HomePageTest.java:29)
+</pre></div><a href='#' onClick='toggleBox("stack-trace124017533", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace124017533'><pre>java.lang.NullPointerException
+	at com.qa.crmpro.utils.ElementUtil.doIsDisplayed(ElementUtil.java:61)
+	at com.qa.crmpro.pages.HomePage.getHomePageHeader(HomePage.java:37)
+	at com.qa.crmpro.tests.HomePageTest.verifyHomePageHeaderTest(HomePageTest.java:31)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -141,13 +150,20 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.qa.crmpro.tests.HomePageTest@63bde6c2</td></tr>
+<td>com.qa.crmpro.tests.HomePageTest@1460c81d</td></tr>
 <tr>
-<td title='com.qa.crmpro.tests.HomePageTest.verifyHomePageLoggedInUser()'><b>verifyHomePageLoggedInUser</b><br>Test class: com.qa.crmpro.tests.HomePageTest</td>
+<td title='com.qa.crmpro.tests.HomePageTest.verifyHomePageLoggedInUser()'><b>verifyHomePageLoggedInUser</b><br>Test class: com.qa.crmpro.tests.HomePageTest<br/>
+<a href="#Output-1849372115" onClick='toggleBox("Output-1849372115", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1849372115" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1849372115">
+<a href='C:\Users\User\OneDrive\Documents\JavaTraining\March2020POMSeries\target\surefire-reports\failure_screenshots\verifyHomePageLoggedInUser_18_04_2021_04_08_28.png'> <img src='C:\Users\User\OneDrive\Documents\JavaTraining\March2020POMSeries\target\surefire-reports\failure_screenshots\verifyHomePageLoggedInUser_18_04_2021_04_08_28.png' height='100' width='100'/> </a><br/>
+</div>
+</td>
 <td><div><pre>java.lang.NullPointerException
 	at com.qa.crmpro.utils.ElementUtil.doIsDisplayed(ElementUtil.java:61)
-	at com.qa.crmpro.pages.HomePage.getHomePageLoggedInUser(HomePage.java:43)
-	at com.qa.crmpro.tests.HomePageTest.verifyHomePageLoggedInUser(HomePageTest.java:37)
+	at com.qa.crmpro.pages.HomePage.getHomePageLoggedInUser(HomePage.java:44)
+	at com.qa.crmpro.tests.HomePageTest.verifyHomePageLoggedInUser(HomePageTest.java:38)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -176,11 +192,11 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace900416096", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace900416096'><pre>java.lang.NullPointerException
+</pre></div><a href='#' onClick='toggleBox("stack-trace1849372115", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1849372115'><pre>java.lang.NullPointerException
 	at com.qa.crmpro.utils.ElementUtil.doIsDisplayed(ElementUtil.java:61)
-	at com.qa.crmpro.pages.HomePage.getHomePageLoggedInUser(HomePage.java:43)
-	at com.qa.crmpro.tests.HomePageTest.verifyHomePageLoggedInUser(HomePageTest.java:37)
+	at com.qa.crmpro.pages.HomePage.getHomePageLoggedInUser(HomePage.java:44)
+	at com.qa.crmpro.tests.HomePageTest.verifyHomePageLoggedInUser(HomePageTest.java:38)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -210,8 +226,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>30</td>
-<td>com.qa.crmpro.tests.HomePageTest@63bde6c2</td></tr>
+<td>0</td>
+<td>com.qa.crmpro.tests.HomePageTest@1460c81d</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -224,7 +240,7 @@ function toggleAllBoxes() {
 <td title='com.qa.crmpro.tests.HomePageTest.verifyHomePageTitleTest()'><b>verifyHomePageTitleTest</b><br>Test class: com.qa.crmpro.tests.HomePageTest</td>
 <td></td>
 <td>0</td>
-<td>com.qa.crmpro.tests.HomePageTest@63bde6c2</td></tr>
+<td>com.qa.crmpro.tests.HomePageTest@1460c81d</td></tr>
 </table><p>
 </body>
 </html>
