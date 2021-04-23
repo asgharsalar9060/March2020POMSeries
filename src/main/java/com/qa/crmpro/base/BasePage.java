@@ -17,7 +17,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.safari.SafariDriver;
 
 import com.qa.crmpro.utils.ElementUtil;
 import com.qa.crmpro.utils.OptionsManager;
@@ -80,10 +79,11 @@ public class BasePage {
 				
 			}
 		}
-		else if (browserName.equalsIgnoreCase("safari")) {
-			WebDriverManager.getInstance(SafariDriver.class).setup();
-			tlDriver.set(new SafariDriver());
-		}
+		/*
+		 * else if (browserName.equalsIgnoreCase("safari")) {
+		 * WebDriverManager.getInstance(SafariDriver.class).setup(); tlDriver.set(new
+		 * SafariDriver()); }
+		 */
 
 		getDriver().manage().deleteAllCookies();
 		getDriver().manage().window().fullscreen();
