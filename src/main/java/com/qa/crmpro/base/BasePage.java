@@ -99,7 +99,7 @@ public class BasePage {
 			DesiredCapabilities cap = DesiredCapabilities.chrome();
 			cap.setCapability(ChromeOptions.CAPABILITY, optionsManager.getChromeOptions());
 			try {
-				tlDriver.set(new RemoteWebDriver(new URL(prop.getProperty("huburl")), cap));
+				tlDriver.set(new RemoteWebDriver(new URL(prop.getProperty("http://localhost:4444/wd/hub")), cap));
 			} catch (MalformedURLException e) {
 				e.printStackTrace();
 			}
@@ -109,7 +109,7 @@ public class BasePage {
 			DesiredCapabilities cap = DesiredCapabilities.firefox();
 			cap.setCapability(ChromeOptions.CAPABILITY, optionsManager.getFirefoxOptions());
 			try {
-				tlDriver.set(new RemoteWebDriver(new URL(prop.getProperty("huburl")), cap));
+				tlDriver.set(new RemoteWebDriver(new URL(prop.getProperty("http://localhost:4444/wd/hub")), cap));
 			} catch (MalformedURLException e) {
 				e.printStackTrace();
 			}
